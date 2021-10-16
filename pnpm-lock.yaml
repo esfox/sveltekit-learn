@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@sveltejs/adapter-vercel': next
   '@sveltejs/kit': next
   dotenv: ^10.0.0
   eslint: ^7.32.0
@@ -11,6 +12,7 @@ specifiers:
   svelte: ^3.42.6
 
 devDependencies:
+  '@sveltejs/adapter-vercel': 1.0.0-next.31
   '@sveltejs/kit': 1.0.0-next.184_svelte@3.43.2
   dotenv: 10.0.0
   eslint: 7.32.0
@@ -80,6 +82,12 @@ packages:
     dependencies:
       estree-walker: 2.0.2
       picomatch: 2.3.0
+    dev: true
+
+  /@sveltejs/adapter-vercel/1.0.0-next.31:
+    resolution: {integrity: sha512-W8p/U00B6ihVrDpwMkgEexfVUzaLmn4MRtXj//Gw4NDFfsrZR4P5wBidrOAIkCYBMvqCOHD+vbAvIiAMOaN23g==}
+    dependencies:
+      esbuild: 0.13.7
     dev: true
 
   /@sveltejs/kit/1.0.0-next.184_svelte@3.43.2:
